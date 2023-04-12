@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="title">Таблица</h1>
+
+        <form class="form">
+          <div class="search-wrap">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Поиск"
+              value=""
+            />
+          </div>
+
+          <div class="wrapper">
+            <div class="datetime-wrapper datetime-start">
+              <span>с</span>
+              <input type="date" value="" class="date-input" placeholder="" />
+            </div>
+
+            <div class="datetime-wrapper datetime-finish">
+              <span>по</span>
+              <input type="date" value="" class="date-input" />
+            </div>
+
+            <!-- кастомный вариант -->
+            <!-- <div class="select-wrapper">
+              <select class="status">
+                <option value="Все">Все</option>
+                <option value="Активный" selected>Активный</option>
+                <option value="Отмененный">Отмененный</option>
+                <option value="Завершенный">Завершенный</option>
+              </select>
+            </div> -->
+          </div>
+
+          <div class="select-wrapper">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Активный
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Все</a>
+              <a class="dropdown-item" href="#">Активный</a>
+              <a class="dropdown-item" href="#">Отмененный</a>
+              <a class="dropdown-item" href="#">Завершенный</a>
+            </div>
+          </div>
+        </form>
+      </header>
+
+      <main>
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Название</th>
+                <th>Описание</th>
+                <th>Пользователь</th>
+                <th>Дата создания</th>
+                <th>Дата исполнения</th>
+                <th>Статус</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Название&nbsp;1</td>
+                <td>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum esse soluta temporibus magni consequuntur
+                  blanditiis eaque, perspiciatis veniam quisquam praesentium
+                  facere voluptate tenetur voluptatem recusandae cum a
+                  exercitationem ducimus incidunt unde. Commodi alias ipsum
+                  omnis vitae laborum odio nemo deleniti. Quaerat tempore
+                  consectetur animi, expedita debitis fuga delectus magni alias.
+                  Id aut quidem sunt voluptatem, cumque odio optio quia!
+                  Sapiente architecto voluptas nam aspernatur ipsam totam,
+                  suscipit vitae accusantium placeat unde reiciendis ea
+                  blanditiis nobis aut fuga et atque quos a soluta ducimus
+                  assumenda eligendi? Soluta distinctio ad dolorem repellat
+                  earum, est quas alias facilis ullam, placeat dolorum nisi
+                  natus accusamus? Necessitatibus repellat, alias commodi natus
+                  quis tenetur ipsam. Recusandae, veniam. Molestiae eaque magni
+                  laudantium saepe natus, exercitationem necessitatibus atque
+                  rem? Ut possimus, eaque velit neque similique debitis quos
+                  minus sapiente eos suscipit minima. Nulla consequatur eligendi
+                  accusamus, ipsam, at harum consectetur cum culpa, blanditiis
+                  inventore error. Aliquid debitis in alias inventore assumenda
+                  reprehenderit voluptas beatae maxime enim odit harum iste
+                  sequi dolores culpa nostrum quis reiciendis fugiat impedit
+                  expedita, cupiditate corrupti similique molestiae velit optio.
+                  Accusantium eum mollitia autem natus soluta ut sit modi iure,
+                  beatae quod officiis facere totam pariatur nisi corporis quia
+                  odio odit molestias obcaecati cupiditate earum. Perspiciatis,
+                  optio sed omnis accusantium aliquam consequuntur officiis
+                  delectus fugiat ullam unde libero quae, quo voluptatibus
+                  magni! Repellat facilis accusamus voluptatibus deserunt, fugit
+                  tempore est ea rerum! Provident aliquid rerum vero delectus
+                  inventore? Exercitationem, vitae. Repellat culpa ullam vel,
+                  possimus atque ad minus dignissimos dolorum rem quis iusto
+                  tenetur alias doloribus assumenda perspiciatis minima veniam
+                  nostrum officia eum magni quod voluptatem! Minima expedita
+                  nulla at! Culpa et explicabo similique eveniet quasi iure
+                  iusto, eius ducimus reprehenderit ad perferendis nulla
+                  incidunt eligendi beatae sint debitis. Perspiciatis
+                  accusantium autem, numquam delectus tempora ullam eius iure,
+                  iusto voluptatem consequatur, reiciendis voluptates. Neque
+                  quam pariatur ullam maxime optio? Fugit, quis totam! Nostrum
+                  inventore vitae, voluptatibus neque porro officia repellat
+                  doloribus repudiandae, est voluptatem omnis itaque
+                  perspiciatis. Inventore aliquam laboriosam numquam cupiditate.
+                  Rem soluta ratione hic porro repudiandae numquam aperiam ab
+                  optio, iste nihil incidunt modi temporibus, mollitia commodi
+                  neque odit nostrum corrupti, voluptatum sunt eum tenetur
+                  obcaecati officia minima facilis. Quia fugiat tempore nostrum.
+                  Consequuntur saepe blanditiis doloremque ipsum nam eveniet,
+                  odio alias tempore dolorem est quod iure eos ducimus sequi
+                  magnam quidem, provident a excepturi dolores eaque ipsa
+                  voluptas itaque nesciunt. Aliquam quos doloremque natus
+                  assumenda eos, libero placeat soluta atque, fuga reprehenderit
+                  quod repellendus facere optio neque, tempora totam dicta ipsa
+                  blanditiis quis corrupti odit expedita omnis iusto. Molestias,
+                  et amet aliquid unde ullam neque eos ea consequatur vitae
+                  magnam eum distinctio corporis quasi doloremque repudiandae
+                  velit, reprehenderit nisi dignissimos quo. Labore earum in,
+                  voluptates modi, eveniet expedita itaque voluptate libero
+                  doloremque dignissimos inventore saepe amet repellendus dolor
+                  optio praesentium quos? Incidunt magni laborum quisquam quis
+                  vel. Non, aliquid officiis sunt, esse maiores est inventore
+                  quod labore voluptate modi repudiandae iste doloremque
+                  dolorum. Soluta labore saepe laudantium voluptatem ut
+                  laboriosam maxime, dolor vel omnis sint distinctio eligendi
+                  maiores blanditiis obcaecati vero illum consectetur quod amet
+                  corporis quas? Natus nisi consequatur quae commodi modi
+                  perferendis totam repellendus velit praesentium sed et,
+                  aperiam ea optio saepe cupiditate earum nihil veritatis unde,
+                  autem ut amet. Numquam veniam, quia soluta aperiam quos
+                  magnam, eum aliquam laboriosam illum expedita totam inventore
+                  eligendi atque nulla harum sapiente sequi. Vel iure
+                  consequuntur sapiente possimus autem ea quaerat, doloremque
+                  accusamus ratione unde velit dolor fugiat deleniti nulla
+                  maxime laudantium repellendus quis quidem natus dolorem neque
+                  culpa excepturi veniam error! Corrupti quisquam iure unde nam!
+                  Excepturi amet vero fuga mollitia laudantium earum quo
+                  assumenda eos dolores dolor quisquam harum, sit impedit eius
+                  aliquid culpa illum neque est praesentium optio iste ullam
+                  fugiat. Repudiandae exercitationem perspiciatis iure, quas
+                  error harum velit voluptatem sit soluta nemo in mollitia
+                  laborum, dolorum officiis impedit! Sed adipisci fugiat, vel
+                  in, id soluta voluptatum officiis, exercitationem ex
+                  necessitatibus accusamus beatae mollitia ducimus fuga
+                  laboriosam sit debitis quam placeat? Laboriosam, consequatur.
+                  Expedita molestias tempora tempore, voluptates accusantium
+                  repellendus alias quis delectus porro eveniet maxime ab
+                  recusandae vel at dicta vitae libero quam nobis excepturi
+                  repudiandae ad incidunt sunt? Beatae eligendi molestiae
+                  dolores odio sunt rerum, ipsum doloremque ut porro cupiditate?
+                  Rem magnam debitis consequatur saepe, odio dolorem laudantium
+                  consectetur eveniet id adipisci ratione inventore corrupti
+                  facilis sed a iure culpa quia fuga excepturi omnis maxime,
+                  cumque eius enim exercitationem. Amet quisquam quis voluptates
+                  dolorum error quia, nulla adipisci nemo dolore tempora porro
+                  officia quidem debitis ut nobis, mollitia eius quod odio
+                  repudiandae consequuntur sapiente dignissimos? Optio culpa
+                  deserunt nesciunt tenetur quam. Blanditiis odit sit libero,
+                  minima fuga harum accusamus incidunt? Molestias, animi harum
+                  iusto placeat in ullam, excepturi, autem reiciendis hic odit
+                  corrupti eaque perspiciatis voluptatibus blanditiis
+                  accusantium beatae nostrum sequi. Quisquam accusantium
+                  officiis dolore quasi, aperiam doloremque obcaecati culpa
+                  eveniet voluptate illum officia sed aspernatur mollitia
+                  assumenda eligendi consequatur aliquid distinctio, at sit,
+                  explicabo corporis totam repellendus hic sint? Quae sunt
+                  suscipit magni illo magnam est ut repudiandae perferendis
+                  quibusdam fugiat odit molestias culpa asperiores corrupti,
+                  necessitatibus a. Aut quam ex quibusdam quaerat? Fugiat
+                  quibusdam omnis reprehenderit soluta et praesentium eius modi?
+                  Velit facilis tenetur, vel laborum sint omnis natus similique
+                  quas earum dolorum iure quae quaerat pariatur eos veniam a
+                  consequatur modi accusamus ad deserunt adipisci id? Quisquam
+                  cumque cum, corrupti excepturi, optio reiciendis impedit
+                  perspiciatis nostrum molestiae ipsam, ipsa explicabo mollitia.
+                  Nulla vel beatae quisquam quibusdam est inventore ex placeat
+                  voluptas assumenda esse id, enim, a officia tempora, earum
+                  atque! Vel dignissimos recusandae ut nemo sapiente.
+                  Asperiores, numquam id. Ea cupiditate, repellat vel vitae
+                  quasi saepe? Mollitia autem aut iste repellat, quod veritatis
+                  incidunt similique vitae aliquid. Nam, aut amet ipsam, qui,
+                  molestias totam eligendi reiciendis optio similique
+                  consequatur molestiae porro. Recusandae ut, similique
+                  repellat, at corporis et nihil delectus fugiat, consectetur
+                  officiis saepe error praesentium! Facere aliquam ut adipisci
+                  culpa optio accusamus, voluptatum libero? Ipsam officia
+                  exercitationem, fugit possimus nesciunt tenetur, inventore
+                  doloremque voluptatibus modi accusantium assumenda voluptatem
+                  eum. Iure alias iste, numquam iusto esse nesciunt ducimus
+                  quibusdam veritatis quos deserunt, necessitatibus
+                  consequuntur.
+                </td>
+                <td>Иванов В. Н.</td>
+                <td>02.01.2023</td>
+                <td>-</td>
+                <td>Активный</td>
+              </tr>
+              <tr>
+                <td>Название&nbsp;2</td>
+                <td>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod
+                </td>
+                <td>Сидоров&nbsp;В.&nbsp;Н.</td>
+                <td>02.01.2023</td>
+                <td>03.01.2023</td>
+                <td>Завершенный</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <nav>
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="prev">
+                <span aria-hidden="true"><</span>
+              </a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="next">
+                <span aria-hidden="true">></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </main>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
